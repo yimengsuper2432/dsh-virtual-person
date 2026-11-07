@@ -1,4 +1,4 @@
-﻿# 依赖与构建产物
+# 依赖与构建产物
 node_modules/
 dist/
 
@@ -12,3 +12,15 @@ dist/
 Thumbs.db
 .idea/
 .vscode/
+
+# 凭据与本机配置 —— 绝不入库
+.env
+.env.*
+.credentials*
+credentials*.json
+*secret*.json
+*.key
+*.pem
+.gh-token
+*.token
+config.local.*
